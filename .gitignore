@@ -1,3 +1,2 @@
 data/VGG16_faster_rcnn_final.caffemodel
-bin/*
 python/*
