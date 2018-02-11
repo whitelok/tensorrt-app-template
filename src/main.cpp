@@ -450,8 +450,8 @@ int main(int argc, char** argv)
 	// read a random sample image
 	srand(unsigned(time(nullptr)));
 	// available images 
-	std::vector<std::string> imageList = { "000456.ppm",  "000542.ppm",  "001150.ppm", "001763.ppm", "004545.ppm" };
-	std::vector<PPM> ppms(N);
+    std::vector<std::string> imageList = { "000456.ppm",  "000542.ppm",  "001150.ppm", "001763.ppm", "004545.ppm", "demo.ppm" };
+    std::vector<PPM> ppms(N);
 
 	float imInfo[N * 3]; // input im_info	
 	std::random_shuffle(imageList.begin(), imageList.end(), [](int i) {return rand() % i; });

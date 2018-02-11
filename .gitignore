@@ -1,2 +1,4 @@
 data/VGG16_faster_rcnn_final.caffemodel
 python/*
+bin/*.ppm
+bin/*.jpg
